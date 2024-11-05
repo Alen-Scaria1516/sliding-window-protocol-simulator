@@ -1,0 +1,31 @@
+/* Navbar styling */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #e5e7eb;
+    /* Light background */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#comp {
+    position: absolute;
+    margin-top: 2em;
+    margin-right: 5em;
+    margin-left: 20em;
+    border: solid black;
+    border-radius: 10px;
+}
+
+.column.is-two-fifths {
+    margin-left: 25rem;
+}
